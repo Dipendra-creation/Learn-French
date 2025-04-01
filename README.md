@@ -87,7 +87,7 @@ npm run dev
 
 Visit http://localhost:3000 in your browser.
 
-⸻
+---
 
 Deployment
 
@@ -97,7 +97,7 @@ The French Learning Platform can be easily deployed on platforms like Vercel or 
 	3.	Build and Deploy: Automatically build and deploy the frontend upon push to the main branch.
 	4.	Monitoring and Logging: Use Vercel’s monitoring tools for real-time performance insights.
 
-⸻
+---
 
 Known Issues
 	•	UI Glitches on Mobile Devices: Some UI components may not scale properly on smaller screens.
@@ -105,7 +105,7 @@ Known Issues
 	•	Token Expiry Issues: Ensure JWT tokens refresh properly.
 	•	Form Validation Errors: Review input handling for better UX.
 
-⸻
+---
 
 Future Improvements
 	•	Offline Mode: Enable offline lessons and quizzes.
@@ -114,7 +114,7 @@ Future Improvements
 	•	Dark Mode Support: Allow users to switch between light and dark modes.
 	•	Multilingual Interface: Expand to other languages for accessibility.
 
-⸻
+---
 
 License
 
