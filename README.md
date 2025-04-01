@@ -40,9 +40,9 @@ The **French Learning Platform** is an interactive web application designed to h
 - Framer Motion (Animations)
 
 ### **Backend:**
-- Node.js (For API endpoints, if applicable)
-- Express.js (Optional, for server-side functionality)
-- MongoDB / PostgreSQL (Optional, for storing progress and user data)
+- Node.js: Used for building API endpoints and backend logic.
+- Express.js: Optional, can be used for additional server-side functionality if needed.
+- MongoDB or PostgreSQL (Both are supported for storing progress and user data. Choose one based on your preference during setup.)
 
 ### **Dev Tools:**
 - PNPM (Package Management)
@@ -76,7 +76,7 @@ npm install
 Create a .env file in the root directory and add the following:
 
 NEXT_PUBLIC_API_URL=http://localhost:3000/api
-NEXT_PUBLIC_JWT_SECRET=your_secret_key
+NEXT_PUBLIC_JWT_SECRET=<your_secret_key>
 
 4. Running the Application
 
@@ -91,7 +91,7 @@ Visit http://localhost:3000 in your browser.
 
 Deployment
 
-The French Learning Platform can be easily deployed on platforms like Vercel or Netlify. The steps include:
+The French Learning Platform is officially recommended to be deployed on **Vercel** for its seamless integration with Next.js. However, it can also be deployed on platforms like Netlify. The steps include:
 	1.	Connect Repository: Link the GitHub repository to your Vercel or Netlify account.
 	2.	Set Environment Variables: Configure the required .env variables in the platform.
 	3.	Build and Deploy: Automatically build and deploy the frontend upon push to the main branch.
@@ -100,22 +100,22 @@ The French Learning Platform can be easily deployed on platforms like Vercel or 
 ---
 
 Known Issues
-	•	UI Glitches on Mobile Devices: Some UI components may not scale properly on smaller screens.
-	•	Slow Initial Load: Optimize image assets and minimize API calls.
-	•	Token Expiry Issues: Ensure JWT tokens refresh properly.
-	•	Form Validation Errors: Review input handling for better UX.
+	- UI Glitches on Mobile Devices: Some UI components may not scale properly on smaller screens.
+	- Slow Initial Load: Optimize image assets and minimize API calls.
+	- Token Expiry Issues: Ensure JWT tokens refresh properly.
+	- Form Validation Errors: Review input handling for better UX.
 
 ---
 
 Future Improvements
-	•	Offline Mode: Enable offline lessons and quizzes.
-	•	Gamification: Add badges, rewards, and achievement milestones.
-	•	AI-Powered Feedback: Provide personalized lesson recommendations.
-	•	Dark Mode Support: Allow users to switch between light and dark modes.
-	•	Multilingual Interface: Expand to other languages for accessibility.
+	- Offline Mode: Enable offline lessons and quizzes.
+	- Gamification: Add badges, rewards, and achievement milestones.
+	- AI-Powered Feedback: Provide personalized lesson recommendations.
+	- Dark Mode Support: Allow users to switch between light and dark modes.
+	- Multilingual Interface: Expand to other languages for accessibility.
 
 ---
 
 License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
