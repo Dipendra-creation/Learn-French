@@ -40,9 +40,9 @@ The **French Learning Platform** is an interactive web application designed to h
 - Framer Motion (Animations)
 
 ### **Backend:**
-- Node.js: Used for building API endpoints and backend logic.
-- Express.js: Optional, can be used for additional server-side functionality if needed.
-- MongoDB or PostgreSQL (Both are supported for storing progress and user data. Choose one based on your preference during setup.)
+- Node.js (For API endpoints, if applicable)
+- Express.js (Optional, for server-side functionality)
+- MongoDB / PostgreSQL (Optional, for storing progress and user data)
 
 ### **Dev Tools:**
 - PNPM (Package Management)
@@ -63,59 +63,63 @@ git clone https://github.com/your-username/french-learning.git
 git clone git@github.com:your-username/french-learning.git
 
 cd french-learning
+```
 
-2. Install Dependencies
-
+### **2. Install Dependencies**
+```bash
 # Install dependencies using PNPM or NPM
 pnpm install
 # or
 npm install
+```
 
-3. Configure Environment Variables
+### **3. Configure Environment Variables**
 
-Create a .env file in the root directory and add the following:
-
+Create a `.env` file in the root directory and add the following:
+```bash
 NEXT_PUBLIC_API_URL=http://localhost:3000/api
-NEXT_PUBLIC_JWT_SECRET=<your_secret_key>
+NEXT_PUBLIC_JWT_SECRET=your_secret_key
+```
 
-4. Running the Application
-
+### **4. Running the Application**
+```bash
 # Start the development server
 pnpm run dev
 # or
 npm run dev
 
 Visit http://localhost:3000 in your browser.
+```
 
 ---
 
-Deployment
+## Deployment
 
-The French Learning Platform is officially recommended to be deployed on **Vercel** for its seamless integration with Next.js. However, it can also be deployed on platforms like Netlify. The steps include:
-	1.	Connect Repository: Link the GitHub repository to your Vercel or Netlify account.
-	2.	Set Environment Variables: Configure the required .env variables in the platform.
-	3.	Build and Deploy: Automatically build and deploy the frontend upon push to the main branch.
-	4.	Monitoring and Logging: Use Vercel’s monitoring tools for real-time performance insights.
-
----
-
-Known Issues
-	- UI Glitches on Mobile Devices: Some UI components may not scale properly on smaller screens.
-	- Slow Initial Load: Optimize image assets and minimize API calls.
-	- Token Expiry Issues: Ensure JWT tokens refresh properly.
-	- Form Validation Errors: Review input handling for better UX.
+The French Learning Platform can be easily deployed on platforms like Vercel or Netlify. The steps include:
+1. **Connect Repository:** Link the GitHub repository to your Vercel or Netlify account.
+2. **Set Environment Variables:** Configure the required `.env` variables in the platform.
+3. **Build and Deploy:** Automatically build and deploy the frontend upon push to the main branch.
+4. **Monitoring and Logging:** Use Vercel’s monitoring tools for real-time performance insights.
 
 ---
 
-Future Improvements
-	- Offline Mode: Enable offline lessons and quizzes.
-	- Gamification: Add badges, rewards, and achievement milestones.
-	- AI-Powered Feedback: Provide personalized lesson recommendations.
-	- Dark Mode Support: Allow users to switch between light and dark modes.
-	- Multilingual Interface: Expand to other languages for accessibility.
+## Known Issues
+- **UI Glitches on Mobile Devices:** Some UI components may not scale properly on smaller screens.
+- **Slow Initial Load:** Optimize image assets and minimize API calls.
+- **Token Expiry Issues:** Ensure JWT tokens refresh properly.
+- **Form Validation Errors:** Review input handling for better UX.
 
 ---
 
-License
+## Future Improvements
+- **Offline Mode:** Enable offline lessons and quizzes.
+- **Gamification:** Add badges, rewards, and achievement milestones.
+- **AI-Powered Feedback:** Provide personalized lesson recommendations.
+- **Dark Mode Support:** Allow users to switch between light and dark modes.
+- **Multilingual Interface:** Expand to other languages for accessibility.
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+---
+
+## License
+
+This project is licensed under the MIT License.
