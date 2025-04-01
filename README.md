@@ -1,5 +1,3 @@
-Here’s the content in code format:
-
 # French Learning Platform
 
 ## Table of Contents
@@ -120,6 +118,4 @@ Future Improvements
 
 License
 
-This project is licensed under the MIT License.
-
-Let me know if you want me to save this content into a `README.md` file inside your project directory! 😊
+This project is licensed under the MIT License. See the LICENSE file for details.
